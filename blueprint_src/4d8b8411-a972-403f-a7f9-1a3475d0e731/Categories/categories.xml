@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CategoryList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.qualisystems.com/ResourceManagement/CategorySchema.xsd">
+  <Category Name="Applications" Catalog="Service">
+    <ChildCategories />
+  </Category>
+  <Category Name="Configuration Management" Catalog="Service">
+    <ChildCategories />
+  </Category>
+  <Category Name="My Category 1" Catalog="Service">
+    <ChildCategories />
+  </Category>
+  <Category Name="My Category 2" Catalog="Service">
+    <ChildCategories />
+  </Category>
+</CategoryList>
