@@ -9,5 +9,18 @@
     </Scripts>
     <Diagram Zoom="1" NodeSize="Medium" />
   </Details>
+  <Services>
+    <Service PositionX="741.333343505859" PositionY="163" Alias="Subnet" ServiceName="Subnet">
+      <Attributes>
+        <Attribute Name="Subnet Size" Value="16" />
+        <Attribute Name="Public" Value="True" />
+        <Attribute Name="Allocated CIDR" Value="" />
+        <Attribute Name="Subnet Id" Value="" />
+        <Attribute Name="QnQ" Value="False" />
+        <Attribute Name="CTag" Value="" />
+        <Attribute Name="QualiX_Address" Value="" />
+      </Attributes>
+    </Service>
+  </Services>
   <Apps />
 </TopologyInfo>
