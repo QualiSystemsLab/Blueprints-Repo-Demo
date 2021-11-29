@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TopologyInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Details Name="git test" Alias="git test" Driver="Python Setup &amp; Teardown" SetupDuration="10" TeardownDuration="10" Public="false" DefaultDuration="120" EnableSandboxSave="true" AbstractOnSavePolicy="Default" IsPersistentSandbox="false">
+  <Details Name="end user blueprint SCM test" Alias="end user blueprint SCM test" Driver="Python Setup &amp; Teardown" SetupDuration="10" TeardownDuration="10" Public="false" DefaultDuration="120" EnableSandboxSave="true" AbstractOnSavePolicy="Default" IsPersistentSandbox="false">
     <Description>Blueprint with preconfigured setup &amp; teardown processes.Deploys Apps and resolves connections on Setup, and deletes App VMs on Teardown</Description>
     <Categories />
     <Scripts>
