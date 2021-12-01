@@ -10,7 +10,7 @@
     <Diagram Zoom="1" NodeSize="Medium" />
   </Details>
   <Apps>
-    <App PositionX="815" PositionY="263" TemplateName="linked clone 2G">
+    <App PositionX="741" PositionY="483" TemplateName="linked clone 2G">
       <AppResourceInfo Name="linked clone 2G" ImagePath="natti test scm_linked clone 2G.png">
         <AppResources>
           <AppResource ModelName="Generic App Model" Driver="">
