@@ -10,7 +10,7 @@
     <Diagram Zoom="1" NodeSize="Medium" />
   </Details>
   <Services>
-    <Service PositionX="792" PositionY="340" Alias="Subnet" ServiceName="Subnet">
+    <Service PositionX="792" PositionY="340" Alias="Public Internet" ServiceName="Subnet">
       <Attributes>
         <Attribute Name="Subnet Size" Value="16" />
         <Attribute Name="Public" Value="True" />
