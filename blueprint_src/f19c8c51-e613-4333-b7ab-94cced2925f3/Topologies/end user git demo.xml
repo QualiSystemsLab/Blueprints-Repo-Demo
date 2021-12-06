@@ -12,11 +12,7 @@
   <Services>
     <Service PositionX="792" PositionY="340" Alias="Public Internet dev 2 name update" ServiceName="Subnet">
       <Attributes>
-<<<<<<< HEAD
-        <Attribute Name="Subnet Size" Value="32" />
-=======
         <Attribute Name="Subnet Size" Value="64" />
->>>>>>> f1
         <Attribute Name="Public" Value="True" />
         <Attribute Name="Allocated CIDR" Value="" />
         <Attribute Name="Subnet Id" Value="" />
