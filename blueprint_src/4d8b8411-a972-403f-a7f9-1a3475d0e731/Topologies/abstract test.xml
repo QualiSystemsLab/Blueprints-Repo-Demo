@@ -69,7 +69,7 @@
         <Attribute Name="Ansible Config 2G.Ansible Config Selector" Value="" />
         <Attribute Name="Execution Server Selector" Value="" />
         <Attribute Name="Ansible Config 2G.Only Inventory Groups" Value="False" />
-        <Attribute Name="Ansible Config 2G.Config Order" Value="" />
+        <Attribute Name="Ansible Config 2G.Config Order" Value="5" />
         <Attribute Name="Supports Ansible" Value="True" />
       </Attributes>
     </Service>
