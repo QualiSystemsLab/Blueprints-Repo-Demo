@@ -46,7 +46,7 @@
               <Attribute Name="QualiX_Address" Value="192.168.85.89" />
               <Attribute Name="Remote Connector Hostname" Value="remote.tgbr.local" />
               <Attribute Name="Static IP Last Octet" Value="" />
-              <Attribute Name="User" Value="root" />
+              <Attribute Name="User" Value="centos" />
               <Attribute Name="User Ansible Log" Value="" />
             </Attributes>
           </AppResource>
