@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TopologyInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Details Name="git conflict demo" Alias="git conflict demo" Driver="Python Setup &amp; Teardown" SetupDuration="10" TeardownDuration="10" Public="false" DefaultDuration="120" EnableSandboxSave="true" AbstractOnSavePolicy="Default" IsPersistentSandbox="false">
+    <Description>Blueprint with preconfigured setup &amp; teardown processes.Deploys Apps and resolves connections on Setup, and deletes App VMs on Teardown</Description>
+    <Categories />
+    <Scripts>
+      <Script Name="Default Sandbox Save 3.0" />
+      <Script Name="Default Sandbox Restore 3.0" />
+    </Scripts>
+    <Diagram Zoom="1" NodeSize="Medium" />
+  </Details>
+  <Services>
+    <Service PositionX="842" PositionY="218" Alias="VLAN Auto" ServiceName="VLAN Auto">
+      <Attributes>
+        <Attribute Name="Allocation Ranges" Value="2-4094" />
+        <Attribute Name="Isolation Level" Value="Exclusive" />
+        <Attribute Name="Access Mode" Value="Access" />
+        <Attribute Name="VLAN ID" Value="" />
+        <Attribute Name="Pool Name" Value="" />
+        <Attribute Name="Virtual Network" Value="" />
+        <Attribute Name="VLANDHCP" Value="True" />
+        <Attribute Name="MGMT VLAN" Value="False" />
+        <Attribute Name="QualiX_Address" Value="" />
+        <Attribute Name="QnQ" Value="False" />
+        <Attribute Name="CTag" Value="" />
+      </Attributes>
+    </Service>
+  </Services>
+  <Apps>
+    <App PositionX="438" PositionY="218" TemplateName="do linux 31">
+      <AppResourceInfo Name="do linux 31" ImagePath="git conflict demo_do linux 31.png">
+        <AppResources>
+          <AppResource ModelName="Linux" Driver="">
+            <Attributes>
+              <Attribute Name="App Deploy Order" Value="N/A" />
+              <Attribute Name="Config Delay" Value="0" />
+              <Attribute Name="Execution Server Selector" Value="ES-Ansible" />
+              <Attribute Name="is virtual appliance" Value="False" />
+              <Attribute Name="is_ssh" Value="" />
+              <Attribute Name="MGMT Ansible Log" Value="" />
+              <Attribute Name="Model Name" Value="Linux" />
+              <Attribute Name="my test attr" Value="" />
+              <Attribute Name="Password" Value="R23A0HitnA2HYsOuahCExw==" />
+              <Attribute Name="Post Deploy Timeout" Value="0" />
+              <Attribute Name="Public IP" Value="" />
+              <Attribute Name="QualiX_Address" Value="192.168.85.89" />
+              <Attribute Name="Remote Connector Hostname" Value="remote.tgbr.local" />
+              <Attribute Name="Static IP Last Octet" Value="" />
+              <Attribute Name="User" Value="root" />
+              <Attribute Name="User Ansible Log" Value="" />
+            </Attributes>
+          </AppResource>
+        </AppResources>
+        <DeploymentPaths>
+          <DeploymentPath Name="my mimic cloud provider - Mimic.MimicDeploy" Default="true">
+            <DeploymentService Name="Mimic.MimicDeploy" CloudProvider="my mimic cloud provider">
+              <Attributes>
+                <Attribute Name="Mimic.MimicDeploy.Address" Value="192.168.85.31" />
+                <Attribute Name="Mimic.MimicDeploy.deployedAddress" Value="" />
+                <Attribute Name="Mimic.MimicDeploy.Autoload" Value="True" />
+                <Attribute Name="Mimic.MimicDeploy.Wait for IP" Value="True" />
+              </Attributes>
+            </DeploymentService>
+          </DeploymentPath>
+        </DeploymentPaths>
+      </AppResourceInfo>
+    </App>
+    <App PositionX="1262" PositionY="218" TemplateName="do windows 32">
+      <AppResourceInfo Name="do windows 32" ImagePath="git conflict demo_do windows 32.png">
+        <AppResources>
+          <AppResource ModelName="Windows" Driver="">
+            <Attributes>
+              <Attribute Name="App Deploy Order" Value="N/A" />
+              <Attribute Name="Config Delay" Value="0" />
+              <Attribute Name="Execution Server Selector" Value="ES-Ansible" />
+              <Attribute Name="is virtual appliance" Value="False" />
+              <Attribute Name="is_rdp" Value="" />
+              <Attribute Name="MGMT Ansible Log" Value="" />
+              <Attribute Name="Model Name" Value="Linux" />
+              <Attribute Name="my test attr" Value="" />
+              <Attribute Name="Password" Value="R23A0HitnA2HYsOuahCExw==" />
+              <Attribute Name="Post Deploy Timeout" Value="0" />
+              <Attribute Name="Public IP" Value="" />
+              <Attribute Name="QualiX_Address" Value="192.168.85.93" />
+              <Attribute Name="Remote Connector Hostname" Value="remote.tgbr.local" />
+              <Attribute Name="Static IP Last Octet" Value="" />
+              <Attribute Name="User" Value="root" />
+              <Attribute Name="User Ansible Log" Value="" />
+              <Attribute Name="Web Link" Value="" />
+            </Attributes>
+          </AppResource>
+        </AppResources>
+        <DeploymentPaths>
+          <DeploymentPath Name="my mimic cloud provider - Mimic.MimicDeploy" Default="true">
+            <DeploymentService Name="Mimic.MimicDeploy" CloudProvider="my mimic cloud provider">
+              <Attributes>
+                <Attribute Name="Mimic.MimicDeploy.Address" Value="192.168.85.32" />
+                <Attribute Name="Mimic.MimicDeploy.deployedAddress" Value="" />
+                <Attribute Name="Mimic.MimicDeploy.Autoload" Value="True" />
+                <Attribute Name="Mimic.MimicDeploy.Wait for IP" Value="True" />
+              </Attributes>
+            </DeploymentService>
+          </DeploymentPath>
+        </DeploymentPaths>
+      </AppResourceInfo>
+    </App>
+  </Apps>
+  <Routes>
+    <Connector Source="do linux 31" Target="VLAN Auto" Direction="Bi" SourceType="Service" TargetType="Service" />
+    <Connector Source="do windows 32" Target="VLAN Auto" Direction="Bi" SourceType="Service" TargetType="Service" />
+  </Routes>
+</TopologyInfo>
