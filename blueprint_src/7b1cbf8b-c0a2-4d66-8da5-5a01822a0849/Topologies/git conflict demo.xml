@@ -76,7 +76,7 @@
               <Attribute Name="is virtual appliance" Value="False" />
               <Attribute Name="is_rdp" Value="" />
               <Attribute Name="MGMT Ansible Log" Value="" />
-              <Attribute Name="Model Name" Value="Linux" />
+              <Attribute Name="Model Name" Value="Ubuntu" />
               <Attribute Name="my test attr" Value="" />
               <Attribute Name="Password" Value="R23A0HitnA2HYsOuahCExw==" />
               <Attribute Name="Post Deploy Timeout" Value="0" />
