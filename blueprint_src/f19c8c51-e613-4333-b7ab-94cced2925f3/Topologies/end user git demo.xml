@@ -10,9 +10,9 @@
     <Diagram Zoom="1" NodeSize="Medium" />
   </Details>
   <Services>
-    <Service PositionX="792" PositionY="340" Alias="Public Internet dev 1" ServiceName="Subnet">
+    <Service PositionX="792" PositionY="340" Alias="Public Internet dev 2 name update" ServiceName="Subnet">
       <Attributes>
-        <Attribute Name="Subnet Size" Value="16" />
+        <Attribute Name="Subnet Size" Value="32" />
         <Attribute Name="Public" Value="True" />
         <Attribute Name="Allocated CIDR" Value="" />
         <Attribute Name="Subnet Id" Value="" />
