@@ -194,7 +194,7 @@
                 <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.IP Regex" Value="" />
                 <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.Refresh IP Timeout" Value="600" />
                 <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.Customization Spec" Value="" />
-                <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.CPU" Value="" />
+                <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.CPU" Value="6" />
                 <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.RAM" Value="" />
                 <Attribute Name="VMware vCenter Cloud Provider 2G.vCenter VM From Linked Clone 2G.HDD" Value="" />
               </Attributes>
