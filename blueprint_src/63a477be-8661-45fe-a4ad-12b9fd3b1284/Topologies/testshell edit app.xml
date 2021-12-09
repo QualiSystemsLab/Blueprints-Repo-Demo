@@ -11,7 +11,7 @@
   </Details>
   <Apps>
     <App PositionX="833" PositionY="152" TemplateName="vcenter test">
-      <AppResourceInfo Name="vcenter test">
+      <AppResourceInfo Name="vcenter test changed">
         <AppResources>
           <AppResource ModelName="Generic App Model" Driver="">
             <Attributes>
