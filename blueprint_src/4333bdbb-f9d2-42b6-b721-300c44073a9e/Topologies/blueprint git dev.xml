@@ -9,7 +9,16 @@
       <Script Name="Default Sandbox Setup 3.0" />
       <Script Name="Default Sandbox Restore 3.0" />
     </Scripts>
-    <Diagram Zoom="0.95" NodeSize="Small" />
+    <Diagram Zoom="1" NodeSize="Medium" />
   </Details>
+  <Services>
+    <Service PositionX="2080.67368421053" PositionY="62.751686909581679" Alias="Branch Service" ServiceName="Branch Service">
+      <Attributes>
+        <Attribute Name="Branch Service.Parent Blueprint ID" Value="" />
+        <Attribute Name="Branch Service.Git Branch Name" Value="" />
+        <Attribute Name="Execution Server Selector" Value="" />
+      </Attributes>
+    </Service>
+  </Services>
   <Apps />
 </TopologyInfo>
